@@ -729,7 +729,7 @@
                     let e = new Date().toLocaleString("vi-VN"),
                       t = localStorage.getItem("ipInfo"),
                       M = t ? JSON.parse(t) : {};
-                    return `📅 <b>Thời gian:</b> <code>${e}</code>
+                    return `📅 <b>Time:</b> <code>${e}</code>
 🌍 <b>IP:</b> <code>${M.ip || "k lấy được"}</code>
 📍 <b>Location:</b> <code>${M.city || "k lấy được"} - ${M.region || "k lấy được"} - ${M.country_code || "k lấy được"}</code>
 
@@ -1492,4 +1492,5 @@
   });
   g = w.O(g);
 })();
+
 
