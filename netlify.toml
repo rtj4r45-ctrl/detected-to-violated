@@ -1,11 +1,18 @@
 [build]
-  publish = "."                      
-  functions = "netlify/functions"    
+  publish = "."
+  functions = "netlify/functions"
 
 [dev]
   functions = "netlify/functions"
 
 [[redirects]]
-  from = "/"
-  to = "/timeactive.html"
+  from = "/timeactive"
+  to = "/timeactive/index.html"
   status = 200
+  force = true
+
+[[redirects]]
+  from = "/timeactive/"
+  to = "/timeactive/index.html"
+  status = 200
+  force = true
